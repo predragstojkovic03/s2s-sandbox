@@ -1,0 +1,24 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  position: relative;
+}
+
+.homeBtn {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px !important;
+  border-radius: 50%;
+
+  font-size: 1.2rem;
+}

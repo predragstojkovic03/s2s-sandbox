@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 92px;
+
+  height: 100vh;
+}
+
+.wrapper img {
+  height: 280px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+
+  width: 100%;
+
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .wrapper img {
+    height: 180px;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .heading {
+    gap: 16px;
+  }
+}

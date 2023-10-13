@@ -1,0 +1,20 @@
+.btn {
+  border: none;
+  padding: 8px 24px;
+  border-radius: 6px;
+
+  background: var(--blue);
+  color: #fff;
+
+  cursor: pointer;
+
+  transition: all 150ms ease;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.btn:hover {
+  background: var(--blue-darker);
+}

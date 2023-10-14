@@ -1,14 +1,7 @@
-import Counter from '../../components/Counter/Counter';
 import Page from '../../components/Page/Page';
 
 const CounterPage = () => {
-  return (
-    <Page>
-      <Counter />
-      <Counter />
-      <Counter />
-    </Page>
-  );
+  return <Page>CounterPage</Page>;
 };
 
 export default CounterPage;

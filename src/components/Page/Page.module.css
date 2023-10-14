@@ -18,7 +18,7 @@
   align-items: center;
 
   padding: 16px !important;
-  border-radius: 50%;
+  border-radius: 50% !important;
 
   font-size: 1.2rem;
 }
